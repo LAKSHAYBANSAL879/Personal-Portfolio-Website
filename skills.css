@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+nav{
+    background-color:  rgb(107, 107, 119);
+    color: white;
+    display: flex; 
+    /* flex-direction: row; */
+    border-radius: 20px;
+    width: 100vw;
+
+}
+nav ul li{
+display: flex;
+list-style: none;
+flex-direction: row;
+ padding: 50px; 
+}
+nav ul{
+    display: flex;
+list-style: none;
+flex-direction: row;
+/* padding: 50px; */
+
+}
+nav img{
+    width: 50px;
+border-radius: 90px;
+margin-left: 25px;
+border: 20px;
+}
+nav ul li a{
+    color: white;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    background-color: rgb(29, 27, 27);
+    border-radius: 50px;
+    text-decoration: none;}
+    .info h1{
+        background-color: rgb(229, 115, 210);
+        color: black;
+        border-radius: 35px;
+        padding-left: 25px;
+    }
+    .heading1,.heading2,.heading3{
+        background-color: rgb(131, 33, 107);
+        color:white ;
+       padding-left: 30px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       border-radius: 50px;
+    }
+    .brief{
+        background-color: white;
+        color: black;
+        margin-left: 20px;
+        font-size: 22px;
+    }
+    .college{
+        font-size: 31px;
+        font-family: 'Zen Dots', cursive;
+    
+    }
+    h5{
+        font-size:25px ;
+    }
+    .awards{
+        background-color: rgb(246, 208, 214);
+    }
+    .main ul li{
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 20px;
+    }

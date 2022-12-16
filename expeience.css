@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+nav{
+    background-color:  rgb(107, 107, 119);
+    color: white;
+    display: flex; 
+    /* flex-direction: row; */
+    border-radius: 20px;
+    width: 100vw;
+
+}
+nav ul li{
+display: flex;
+list-style: none;
+flex-direction: row;
+ padding: 50px; 
+}
+nav ul{
+    display: flex;
+list-style: none;
+flex-direction: row;
+/* padding: 50px; */
+
+}
+nav img{
+    width: 50px;
+border-radius: 90px;
+margin-left: 25px;
+border: 20px;
+}
+nav ul li a{
+    color: white;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    background-color: rgb(29, 27, 27);
+    border-radius: 50px;
+    text-decoration: none;}
